@@ -19,12 +19,14 @@ Ready to run in production? Please [check our deployment guides](http://www.phoe
   * Source: https://github.com/phoenixframework/phoenix
 
 # notes for this
-At first i dind't knew how to manage my erlang packages
-If you have trouble compiling some dependency those are the ones i manually installed via apt-get
-erlang-dev
-erlang-parsetools
-erlang-nox
 
-Maybe you won't need any
-maybe you will
-As long as mix deps.get work you are good
+At first i dind't knew how to manage my erlang packages and installed some manually
+
+	If you have trouble compiling some dependency those are the ones i manually installed via apt-get
+	*`erlang-dev`
+	*`erlang-parsetools`
+	*`erlang-nox`
+
+	Maybe you won't need any.
+	Maybe you will.
+	As long as mix deps.get work you are good.
